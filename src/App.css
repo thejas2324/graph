@@ -55,3 +55,26 @@ body {
 h1 {
   margin-bottom: 20px;
 }
+
+footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 10px 0;
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+

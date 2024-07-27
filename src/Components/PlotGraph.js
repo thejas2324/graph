@@ -24,11 +24,11 @@ function PlotGraph() {
     <div className="plot-graph">
       <h1 className="text-center">Plot Graph</h1>
       <div className="mb-3">
-        <label className="form-label">X-axis data (comma separated):</label>
+        <label className="form-label">Enter X-axis data (comma separated):</label>
         <input type="text" className="form-control" value={xData} onChange={(e) => setXData(e.target.value)} />
       </div>
       <div className="mb-3">
-        <label className="form-label">Y-axis data (comma separated):</label>
+        <label className="form-label">Enter Y-axis data (comma separated):</label>
         <input type="text" className="form-control" value={yData} onChange={(e) => setYData(e.target.value)} />
       </div>
       <button className="btn btn-primary" onClick={handlePlot}>Plot</button>

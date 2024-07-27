@@ -4,7 +4,7 @@ function Home() {
   return (
     <div className="text-center">
       <h1>Home</h1>
-      <p>Welcome to the Graph Plotter application!</p>
+      <h3>Welcome to the Graph Plotter application!</h3>
     </div>
   );
 }
